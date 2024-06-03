@@ -3,6 +3,19 @@
 ## Introduction
 Welcome to the **Intelligent AI-Powered Restaurant Name Creation** application! This tool leverages the power of AI to generate creative and unique restaurant names. Whether you're opening a new restaurant or rebranding an existing one, this application provides a wide range of name suggestions to suit your culinary vision.
 
+
+## Relevant Links
+
+- [Web Application](https://Langchain-Restaurant-Cuisine-Ideas-fajtmtqbjbumxievoq9.streamlit.app/)
+- [GitHub](https://github.com/sahiltambe/Langchain-Restaurant-Cuisine-Ideas/)
+- [LinkedIn](https://www.linkedin.com/in/sahiltambe13//)
+
+
+### Disclaimer
+
+The results displayed on the website are placeholders or preloaded as the OpenAPI usage limit has been surpassed. You may attempt to create fresh and distinctive content by utilizing your own OpenAPI key.
+
+
 ## Features
 - **AI-Powered Name Generation**: Utilizes Langchain and OpenAPI for generating unique and catchy restaurant names.
 - **Customization Options**: Tailor the generated names to match your restaurant's theme, cuisine, and target audience.
