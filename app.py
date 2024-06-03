@@ -1,5 +1,7 @@
 import streamlit as st
 
+# Add a link to your GitHub repository at the top of the webpage
+st.markdown("[GitHub Repository](https://github.com/sahiltambe/Langchain-Restaurant-Cuisine-Ideas)", unsafe_allow_html=True)
 # Set the title of the Streamlit app
 st.title("Intelligent AI-Powered Restaurant Name Creation")
 
