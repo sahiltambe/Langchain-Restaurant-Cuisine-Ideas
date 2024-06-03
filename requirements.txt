@@ -1,0 +1,8 @@
+openai
+langchain
+google-search-results
+streamlit
+transformers
+google-cloud-language
+TensorFlow
+tf-keras
