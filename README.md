@@ -6,7 +6,7 @@ Welcome to the **Intelligent AI-Powered Restaurant Name Creation** application! 
 
 ## Relevant Links
 
-- [Web Application](https://langchain-restaurant-cuisine-idea.streamlit.app/)
+- [Web Application](https://langchain-restaurant-cuisine-ideas.streamlit.app/)
 - [GitHub](https://github.com/sahiltambe/Langchain-Restaurant-Cuisine-Ideas/)
 - [LinkedIn](https://www.linkedin.com/in/sahiltambe13//)
 

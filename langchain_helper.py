@@ -6,17 +6,14 @@ from langchain.chains import LLMChain, SequentialChain
 
 import streamlit as st
 
-# Set GooglePalm API key from Streamlit secrets
-# os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
+
 # Set the OpenAI API key environment variable
 # os.environ['OPENAI_API_KEY'] = openapi_key
-
 # Initialize the OpenAI language model with a specific temperature setting
 # llm = OpenAI(temperature=0.7)
 
-# Set GooglePalm API key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyCanJlw9nk4xGvIkDyNo7hMORMNhWxutak" #get your own api key from https://makersuite.google.com/
-
+# Set GooglePalm API key from Streamlit secrets
+os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
 # Initialize GooglePalm LLM
 llm = GooglePalm(temperature=0.5)
 
