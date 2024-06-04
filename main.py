@@ -1,11 +1,14 @@
 import streamlit as st
 import langchain_helper
 
+# Add a link to your GitHub repository at the top of the webpage
+st.markdown("[GitHub Repository](https://github.com/sahiltambe/Langchain-Restaurant-Cuisine-Ideas)", unsafe_allow_html=True)
+
 # Set the title of the Streamlit app
 st.title("Intelligent AI-Powered Restaurant Name Creation")
 
 # Create a sidebar select box for choosing a cuisine
-cuisine = st.sidebar.selectbox("Pick a Cuisine", ["Indian", "Italian", "Mexican", "Arabic", "American"])
+cuisine = st.sidebar.selectbox("Pick a Cuisine", ["Indian", "Italian", "French", "Chinese", "Japanese", "Thai", "Mexican", "Arabic", "American", "Afghan", "German", "Greek"])
 
 # Check if a cuisine is selected
 if cuisine:
