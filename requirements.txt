@@ -8,6 +8,7 @@ TensorFlow
 tf-keras
 numexpr
 
+langchain-community
 google-generativeai
 InstructorEmbedding
 torch
