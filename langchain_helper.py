@@ -4,6 +4,10 @@ from langchain.llms import GooglePalm
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain
 
+import streamlit as st
+
+# Set GooglePalm API key from Streamlit secrets
+# os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
 # Set the OpenAI API key environment variable
 # os.environ['OPENAI_API_KEY'] = openapi_key
 
@@ -11,10 +15,10 @@ from langchain.chains import LLMChain, SequentialChain
 # llm = OpenAI(temperature=0.7)
 
 # Set GooglePalm API key
-os.environ['GOOGLEPALM_API_KEY'] = "AIzaSyCanJlw9nk4xGvIkDyNo7hMORMNhWxutak" #get your own api key from https://makersuite.google.com/
+os.environ['GOOGLE_API_KEY'] = "AIzaSyCanJlw9nk4xGvIkDyNo7hMORMNhWxutak" #get your own api key from https://makersuite.google.com/
 
 # Initialize GooglePalm LLM
-llm = GooglePalm(temperature=0.7)
+llm = GooglePalm(temperature=0.5)
 
 def generate_restaurant_name_and_items(cuisine):
     prompt_template_name = PromptTemplate(
