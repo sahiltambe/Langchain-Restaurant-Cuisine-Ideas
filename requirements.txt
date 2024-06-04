@@ -6,3 +6,11 @@ transformers
 google-cloud-language
 TensorFlow
 tf-keras
+numexpr
+
+googlepalm
+google-generativeai
+InstructorEmbedding
+torch
+sentence-transformers==2.2.2
+huggingface-hub
