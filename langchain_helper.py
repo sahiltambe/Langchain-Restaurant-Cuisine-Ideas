@@ -11,9 +11,9 @@ import streamlit as st
 # llm = OpenAI(temperature=0.7)
 
 # Set GooglePalm API key from Streamlit secrets
-# os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
+os.environ['GOOGLE_API_KEY'] = st.secrets["GOOGLE_API_KEY"]
 # Set GooglePalm API key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyCanJlw9nk4xGvIkDyNo7hMORMNhWxutak" #get your own api key from https://makersuite.google.com/
+# os.environ['GOOGLE_API_KEY'] = "GOOGLE_API_KEY" #get your own api key from https://makersuite.google.com/
 
 # Initialize GooglePalm LLM
 llm = GooglePalm(temperature=0.5)
