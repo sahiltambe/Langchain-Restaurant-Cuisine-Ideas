@@ -12,5 +12,5 @@ langchain-community
 google-generativeai
 InstructorEmbedding
 torch
-sentence-transformers==2.2.2
+sentence-transformers==5.6.0
 huggingface-hub
